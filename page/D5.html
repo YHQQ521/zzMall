@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> 
+	<!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no" />
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/yunLing.css">
+	<title>课程订单详情</title>
+</head>
+<body>
+	<div class="page_box ConfirmOrder_page">
+		<header>
+			<div class="left"><i class="return"></i></div>
+			<h1 class="state_title">课程订单详情</h1>
+			<div class="right"></div>
+		</header>
+		<div class="PaymentOrder_mod01">
+			<dl><dt>课程</dt><dd>亲子启蒙课Let`s Go Go Go</dd></dl>
+			<dl><dt>规格</dt><dd>合川路校区 + 周末班</dd></dl>
+			<dl><dt>单价</dt><dd>￥580</dd></dl>
+			<dl><dt>数量</dt><dd>1</dd></dl>
+			<dl><dt>支付金额</dt><dd class="B4_color">￥360</dd></dl>
+		</div>
+		<!--order-->
+		<div class="PaymentOrder_mod01">
+			<dl><dt>订单编号</dt><dd>12321300011</dd></dl>
+			<dl><dt>下单时间</dt><dd><span>2016-08-09 </span><span> 12:00:01</span></dd></dl>
+			<dl><dt>订单状态</dt><dd class="payStatus">已支付</dd></dl>
+			<dl><dt>联系手机</dt><dd>13923813217</dd></dl>
+		</div>
+		<div id="btn" class="btn_N">
+			<button class="B5_bg">回首页</button>
+			<button class="B5_bg">再买一次</button>
+		</div>
+	</div>
+</body>
+</html>

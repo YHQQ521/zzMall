@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> 
+	<!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no" />
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/yunLing.css">
+	<title>微信支付</title>
+</head>
+<body>
+	<div class="page_box ConfirmOrder_page">
+		<header>
+			<div class="left"><i class="return"></i></div>
+			<h1 class="state_title">微信支付</h1>
+			<div class="right"></div>
+		</header>
+		<div class="PaymentOrder_mod01 Z51Wrap0">
+			<dl><dt>商品</dt><dd>2017超级冬令营</dd></dl>
+			<dl><dt>支付金额</dt><dd class="B4_color">￥3600</dd></dl>
+		</div>
+		<h3 class="z51CommonIssue qh">微信支付常见问题</h3>
+		<div class="PaymentOrder_mod01 Z51Wrap mb5">
+			<h2>通过银行卡支付出错，提示中出现“支付限额”。</h2>
+			<p class="z51Text">这是您的银行卡有支付限额，可能您本次支付超出了单笔、单日的限额。不同银行的银行卡限额规则不同，您可以自助查询。查询方法：退回微信主界面，选择【我】->【钱包】->【银行卡】，然后点选您绑定的银行卡，可以查看具体限额数。如下图所示：</p>
+			<img class="z51Zfxe" src="../images/photo/zfxe.png" alt="">
+			<h2>通过零钱支付出错，提示中出现“支付限额”。</h2>
+			<p class="z51Text">微信支付对零钱支付有限额规定：<br>
+				1、未实名认证用户。单笔：最高1000元， 每日：最高1000元， 每月：最高2000元；<br>
+				2、已实名认证用户。每日：最高10000元。</p>
+			<p class="z51Text">更多微信支付问题，请电话咨询微信 <a href="tel:95017">95017</a></p>
+		</div>
+		<div class="pageFooter">
+			<div class="ShoppingCartBar02">
+				<span><img src="../images/icon/chosen.svg">确认支付</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

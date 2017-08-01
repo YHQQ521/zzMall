@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> 
+	<!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no" />
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/yunLing.css">
+	<title>新建孩子</title>
+</head>
+<body>
+	<div class="page_box ConfirmOrder_page pt6">
+		<header>
+			<div class="left"><i class="return"></i></div>
+			<h1 class="state_title">新建孩子</h1>
+			<div class="right"><i class="text">保存</i></div>
+		</header>
+		<!--student info-->
+		<div class="ConfirmOrderList project_o5 B3_wrap">
+			<dl class="select bt">
+				<dt><span class="asterisk">*</span>昵称</dt>
+				<dd class="B3_phoneNum">
+					<input type="text" placeholder="">
+				</dd>
+			</dl>
+			<dl class="select bt">
+				<dt><span class="asterisk">*</span>姓名</dt>
+				<dd class="B3_phoneNum">
+					<input type="text" placeholder="">
+				</dd>
+			</dl>
+			<dl class="select bt">
+				<dt><span class="asterisk">*</span>生日</dt>
+				<dd class="D11Input">
+					<input type="text" placeholder="">年<input type="text" placeholder="">月<input type="text" placeholder="">日
+				</dd>
+			</dl>
+			<dl class="select bt">
+				<dt><span class="asterisk">*</span>性别</dt>
+				<dd class="D11Input">
+					<input type="radio" name="sex">男<input type="radio" name="sex">女
+				</dd>
+			</dl>
+			<dl class="select bt">
+				<dt>证件类型</dt>
+				<dd class="B3_phoneNum">
+				<select name="">
+					<option value="">护照</option>
+					<option value="">驾驶证</option>
+					<option value="">驾驶证</option>
+				</select><span class="arrow_right "><img src="../images/icon/arrow_right.svg"></span></span>
+				</dd>
+			</dl>
+			<dl class="select bt">
+				<dt>证件号</dt>
+				<dd class="B3_phoneNum">
+					<input type="text" placeholder="">
+				</dd>
+			</dl>
+		</div>
+		<!--linkman info-->
+		<h3 class="Z3Title">目前就读</h3>
+		<div class="ConfirmOrderList project_o5 B3_wrap">
+			<dl class="select bt">
+				<dt><span class="asterisk">*</span>就读学校</dt>
+				<dd class="B3_phoneNum">
+					<input type="text" placeholder="">
+				</dd>
+			</dl>
+			<dl class="select bt">
+				<dt>就读班级</dt>
+				<dd class="B3_phoneNum">
+					<input type="text" placeholder="">
+				</dd>
+			</dl>
+		</div>
+	</div>
+</body>
+</html>

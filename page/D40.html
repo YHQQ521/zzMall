@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> 
+	<!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no" />
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/yunLing.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/tab.js"></script>
+	<title>我的课程</title>
+</head>
+<body>
+	<div class="page_box ConfirmOrder_page">
+		<header>
+			<div class="left"><i class="return"></i></div>
+			<h1 class="state_title">我的课程</h1>
+			<div class="right"><i class="text"></i></div>
+		</header>
+		<div class="tab_switch M2_tab_switch D21Fixed">
+			<ul id="classStatus" class="twoLi">
+				<li class="bold D40Selected">开班中</li>
+				<li class="bold">已结班</li>
+			</ul>
+		</div>
+		<!--开班中-->
+		<div class="JW10_wrap JW11_wrap D40_wrap mt7">
+			<div class="course">
+				<div class="top">
+					<p>
+						<span class="bold">云领晚托班G3</span>
+						<span>201703-C1</span>
+					</p>
+					<p>
+						<span class="qh">2017-03-01开班</span>
+						<span>刘勇</span>
+					</p>
+				</div>
+				<div class="center">
+					<p>
+						<span>14</span>
+						<span class="qh">正常</span>
+					</p>
+					<p>
+						<span>30</span>
+						<span class="qh">缺席</span>
+					</p>
+					<p class="shu">|</p>
+					<p>
+						<span>35</span>
+						<span class="qh">总课时</span>
+					</p>
+				</div>
+				<div class="bottom D40Wrap">
+					<div class="D40BottomLeft">
+						<span class="qh">今天有课</span>
+						<!--
+						已签到：JWColor2
+						已签入还未签出：JWColor3   未签到：JWColor0
+						-->
+						<span class="JWColor2">已签到</span>
+						<p class="D40Status JWColor2">排课详情</p>	
+					</div>
+					<div class="D40BottomRight">
+						<img src="../images/icon/erweima.png" alt="">
+						<span>签到码</span>
+					</div>
+				</div>
+				<div class="teacher">
+					<span>班主任</span>
+					<a href="tel:18273645891">
+						<span>马老师</span>
+						<img src="../images/icon/phone.png" alt="">
+					</a>
+				</div>
+			</div>
+			<div class="course mt1">
+				<div class="top">
+					<p>
+						<span class="bold">云领晚托班G3</span>
+						<span>201703-C1</span>
+					</p>
+					<p>
+						<span class="qh">2017-03-01开班</span>
+						<span>刘勇</span>
+					</p>
+				</div>
+				<div class="center">
+					<p>
+						<span>14</span>
+						<span class="qh">正常</span>
+					</p>
+					<p>
+						<span>30</span>
+						<span class="qh">缺席</span>
+					</p>
+					<p class="shu">|</p>
+					<p>
+						<span>35</span>
+						<span class="qh">总课时</span>
+					</p>
+				</div>
+				<div class="bottom D40Wrap">
+					<div class="D40BottomLeft">
+						<span class="qh">今天有课</span>
+						<!--
+						已签到：JWColor2
+						已签入还未签出：JWColor3   未签到：JWColor0
+						-->
+						<span class="JWColor2">已签到</span>
+						<p class="D40Status JWColor2">排课详情</p>	
+					</div>
+					<div class="D40BottomRight">
+						<img src="../images/icon/erweima.png" alt="">
+						<span>签到码</span>
+					</div>
+				</div>
+				<div class="teacher">
+					<span>班主任</span>
+					<a href="tel:18273645891">
+						<span>马老师</span>
+						<img src="../images/icon/phone.png" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--已结班-->
+		<div class="JW10_wrap JW11_wrap D40_wrap mt7  none">
+			<div class="course">
+				<div class="top">
+					<p>
+						<span class="bold">云领晚托班G3</span>
+						<span>201703-C1</span>
+					</p>
+					<p>
+						<span class="qh">2017-03-01开班</span>
+						<span>刘勇</span>
+					</p>
+				</div>
+				<div class="center">
+					<p>
+						<span>14</span>
+						<span class="qh">正常</span>
+					</p>
+					<p>
+						<span>30</span>
+						<span class="qh">缺席</span>
+					</p>
+					<p class="shu">|</p>
+					<p>
+						<span>35</span>
+						<span class="qh">总课时</span>
+					</p>
+				</div>
+			</div>
+			<div class="course mt1">
+				<div class="top">
+					<p>
+						<span class="bold">云领晚托班G3</span>
+						<span>201703-C1</span>
+					</p>
+					<p>
+						<span class="qh">2017-03-01开班</span>
+						<span>刘勇</span>
+					</p>
+				</div>
+				<div class="center">
+					<p>
+						<span>14</span>
+						<span class="qh">正常</span>
+					</p>
+					<p>
+						<span>30</span>
+						<span class="qh">缺席</span>
+					</p>
+					<p class="shu">|</p>
+					<p>
+						<span>35</span>
+						<span class="qh">总课时</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--点击签入确认的弹层-->
+  	<div class="WJ11_layer D40_layer none">
+		<div class="WJ11_container D40_container">
+			<p class="D40_relog">签到码</p>
+			<div class="D40StudentInfo">
+				<p>
+					<span class="bold">云领晚托班G3</span>
+					<span>201703-C1</span>
+				</p>
+				<p>
+					<span class="qh">2017-03-01开班</span>
+					<span>刘勇</span>
+				</p>
+			</div>
+			<img class="bigCode" src="../images/photo/bigCode.jpg" alt="">
+			<p class="textInfo">送孩子上课时出示，扫码签入；接孩子下课时出示，扫码签出。</p>
+			<p class="close">关闭</p>
+		</div>
+	</div>
+</body>
+</html>

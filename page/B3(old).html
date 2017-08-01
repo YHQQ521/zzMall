@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> 
+	<!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no" />
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/yunLing.css">
+	<title>确认订单</title>
+</head>
+<body>
+	<div class="page_box ConfirmOrder_page">
+		<header>
+			<div class="left"><i class="return"></i></div>
+			<h1 class="state_title">确认订单</h1>
+			<div class="right"></div>
+		</header>
+		<div class="page_title_01 bt_no">  亲子启蒙课Let`s Go Go Go</div>
+		<div class="ConfirmOrderList project_o5 B3_wrap mt0">
+			<dl class="select"><dt>校区</dt>
+				<dd>
+					<span class="arrow_right ">合川路<img src="../images/icon/arrow_right.svg"></span>
+					<div class="select_SA7">
+						<ul>
+							<li>龙茗路</li>
+							<li>莲花路</li>
+							<li>古美路</li>
+						</ul>
+					</div>
+				</dd>
+			</dl>
+			<dl class="select"><dt>时段</dt>
+				<dd>
+					<span class="arrow_right ">平日班<img src="../images/icon/arrow_right.svg"></span>
+					<div class="select_SA7">
+						<ul>
+							<li>周末班</li>
+						</ul>
+					</div>
+				</dd>
+			</dl>
+		</div>
+		<!--count price-->
+		<div class="ConfirmOrderList project_o5 B3_wrap">
+			<dl class="select"><dt>数量</dt>
+				<dd class="B3_container">
+					<input class="B3_Minus" type="button"><span class="B3_num">10</span><input class="B3_plus" type="button">
+				</dd>
+			</dl>
+			<dl class="select"><dt>单价</dt>
+				<dd>
+					<span class="arrow_right ">￥580</span>
+				</dd>
+			</dl>
+		</div>
+		<!--connect phone-->
+		<div class="ConfirmOrderList project_o5 B3_wrap">
+			<dl class="select borderNo">
+			<dt>联系手机</dt>
+			<dd class="B3_phoneNum">13918448332</dd>
+			</dl>
+		</div>
+		<div class="pageFooter">
+			<div class="ShoppingCartBar02">
+				<img src="../images/icon/chosen.svg">下一步
+			</div>
+		</div>
+	</div>
+</body>
+</html>

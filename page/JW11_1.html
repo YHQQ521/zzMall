@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> 
+	<!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no" />
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/yunLing.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/tab.js"></script>
+	<title>扫码</title>
+</head>
+<body>
+	<div class="page_box ConfirmOrder_page">
+		<header>
+			<div class="left"><i class="return"></i></div>
+			<h1 class="state_title">扫码结果</h1>
+			<div class="right"><i class="text">再扫一次</i></div>
+		</header>
+		<!--学生信息-->
+		<div class="JW11StudentInfo">
+			<p>
+				<span class="bold">王晓明</span>
+				<span>男</span>
+				<span>出生</span>
+				<span>2009-06-03</span>
+			</p>
+			<p>
+				<span>就读学校</span>
+				<span>清华大学</span>
+			</p>
+			<p>
+				<span>家长手机</span>
+				<span>17263849018</span>
+			</p>
+			<p>
+				<span>家长手机</span>
+				<span>36273894092</span>
+			</p>
+		</div>
+		<!--班级-->
+		<div class="JW10_wrap JW11_wrap">
+			<div class="course">
+				<div class="top">
+					<p>
+						<span class="bold">云领晚托班G3</span>
+						<span>201703-C1</span>
+					</p>
+					<p>
+						<span class="qh">2017-03-01开班</span>
+						<span>班主任 陈玉萍 </span>
+					</p>
+				</div>
+				<div class="center">
+					<p>
+						<span>14</span>
+						<span class="qh">正常</span>
+					</p>
+					<p>
+						<span>30</span>
+						<span class="qh">缺席</span>
+					</p>
+					<p class="shu">|</p>
+					<p>
+						<span>35</span>
+						<span class="qh">总课时</span>
+					</p>
+				</div>
+				<div class="bottom">
+					<span class="hs">今天有课</span>
+					<span class="hs">11:30开课</span>
+				</div>
+			</div>
+<!--
+今天未签到:JWColor0    今天已签到:JWColor2
+今天已签入:JWColor3    今天已签到:JWColor4
+-->
+			<p class="qiandao JWColor0">今天未签到</p>
+		</div>
+		<footer>
+			<p id="confirm" class="confirm">确认签入</p>
+		</footer>
+	</div>
+	<!--点击签入确认的弹层-->
+  	<div id="WJ11_layer" class="WJ11_layer none">
+		<div class="WJ11_container">
+			<p class="WJ11_relog">
+				<span>签入确认</span>
+				<span>学员：张小明 ，将要签入班级：云领晚托班G3 2017C3？</span>
+			</p>
+			<ul>
+				<li id="cancel" class="color_qh">取消</li>
+				<li>确定签入</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

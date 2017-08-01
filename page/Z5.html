@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> 
+	<!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no" />
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/yunLing.css">
+	<title>支付订单</title>
+</head>
+<body>
+	<div class="page_box ConfirmOrder_page">
+		<header>
+			<div class="left"><i class="return"></i></div>
+			<h1 class="state_title">支付订单</h1>
+			<div class="right"></div>
+		</header>
+		<div class="PaymentOrder_mod01">
+			<dl><dt>商品</dt><dd>2017超级冬令营</dd></dl>
+			<dl><dt>规格</dt><dd>一期2016-11-30到12-15</dd></dl>
+			<dl><dt>单价</dt><dd>￥5800</dd></dl>
+			<dl><dt>购买数量</dt><dd>1</dd></dl>
+			<dl><dt>订单金额</dt><dd class="B4_color">￥3600</dd></dl>
+		</div>
+		<div class="page_title_01 B2_borderNo">支付方式</div>
+		<div class="PaymentOrder_mod01 mb5">
+			<dl class="B4_padding">
+			<dt><img src="../images/icon/weixin.svg">微信支付</dt><dd><img src="../images/icon/chosen03.svg"></dd>
+			</dl>
+			<dl class="B4_padding">
+			<dt><img src="../images/icon/zhifubao.svg">支付宝支付</dt><dd><img src="../images/icon/kong.svg"></dd>
+			</dl>
+			<dl class="B4_padding">
+			<dt><img src="../images/icon/xianchang.svg">现场支付</dt><dd><img src="../images/icon/kong.svg"></dd>
+			</dl>
+		</div>
+		<div class="pageFooter">
+			<div class="ShoppingCartBar02 Z5tl">
+				<span class="Z5payNum">支付金额<span class="Z5Num">￥200000.00</span></span>
+				<span class="Z5Pay"><img src="../images/icon/chosen.svg">确认支付</span>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

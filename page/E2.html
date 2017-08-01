@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> 
+	<!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no" />
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/yunLing.css">
+    <script src="../js/jquery.min.js"></script>
+	<title>云领将来微官网</title>
+</head>
+<body>
+	<div class="raeresaf A2_height RestaurantMenu_page" id="raeresaf">
+		<header>
+			<div class="left"></div>
+			<h1 class="state_title"><img class="E2Logo" src="../images/photo/logo.png">云领将来微官网</h1>
+			<div class="right"><i class="text">关注我们</i></div>
+		</header>
+		<div class="ItemDetailsPhoto_home mt48" id="carousel">
+            <ul>
+              <li style="display: block">
+                <img src="../images/photo/selfimg01.jpg">
+              </li>
+              <li>
+                <img src="../images/photo/selfimg01.jpg">
+              </li>
+              <li>
+                <img src="../images/photo/selfimg01.jpg">
+              </li>
+            </ul>
+            <div class="ItemDetailsPhoto_point A2_right">
+              <i class="hover"></i>
+              <i></i>
+              <i></i>
+            </div>
+    	</div>
+    <!--ItemDetailsPhoto_home end-->
+        <div class="clear"></div>            
+        <div class="Self_Mod05 E2_top2">
+            <ul>
+            <li> <img src="../images/icon/activity.svg"><span>冬夏令营</span></li>
+            <li> <img src="../images/icon/subject.svg"><span>课程</span></li>
+            <li> <img src="../images/icon/TA.png"><span>TA</span></li>
+            <li> <img src="../images/icon/mine.svg"><span>我的</span></li>
+            </ul>
+		    </div><!--Self_Mod05 end-->
+        <div class="clear"></div>
+        <div class="ItemDetailsPhoto_home2">
+            <div class="Self_Mod06">
+                   <hr class="floatLeft" id="N0_mr"></hr> 热门推荐 <hr class="floatRight"></hr>
+	        </div>  
+	        <div class="productRecommend">
+	        	<ul>
+	        		<li>
+	        			<img class="productImg" src="../images/photo/productName1.jpg" alt="">
+	        			<p class="productIntroduceInfo">190元，价值880元测评全测评全免券</p>
+	        			<span class="productPrice">¥190</span>
+	        		</li>
+	        		<li>
+	        			<img class="productImg" src="../images/photo/productName.jpg" alt="">
+	        			<p class="productIntroduceInfo">190元，价值880元测评全测评全免券</p>
+	        			<span class="productPrice">¥190</span>
+	        		</li>
+	        		<li>
+	        			<img class="productImg" src="../images/photo/productName.jpg" alt="">
+	        			<p class="productIntroduceInfo">190元，价值880元测评全测评全免券</p>
+	        			<span class="productPrice">¥190</span>
+	        		</li>
+	        		<li>
+	        			<img class="productImg" src="../images/photo/productName.jpg" alt="">
+	        			<p class="productIntroduceInfo">190元，价值880元测评全测评全免券</p>
+	        			<span class="productPrice">¥190</span>
+	        		</li>
+	        	</ul>
+	        </div>
+        </div>         
+    </div>
+    <!--关注二维码弹出框-->
+	<div class="wrap" id="layer" hidden>
+		<div class="get_success">
+				<dl class="top N2_2bg">
+					<dt>
+						<img src="../images/icon/purchase_success1.svg">
+						<img class="close" src="../images/icon/close.png">
+					</dt>
+					<dd>关注二维码</dd>
+				</dl>
+			<div class="down_border">
+				<p class="focus_info">长按二维码，关注 <span class="col-highlight">中泽商城</span>公众号。
+				</p>
+				<div class="F1_twoImg">
+					<img src="../images/photo/code.png">
+				</div>	
+				<p class="wait">关闭</p>
+			</div>
+		</div>
+	</div>
+	<script>
+		$(function(){
+			$('.productImg').attr('height',$(window).width()*.4);
+		})
+	</script>
+</body>
+</html>

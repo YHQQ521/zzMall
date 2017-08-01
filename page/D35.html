@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> 
+	<!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no" />
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/yunLing.css">
+	<title>订单详情</title>
+</head>
+<body>
+	<div class="page_box ConfirmOrder_page pt6">
+		<header>
+			<div class="left"><i class="return"></i></div>
+			<h1 class="state_title">课程订单详情</h1>
+			<div class="right"></div>
+		</header>
+		<div class="ServiceStatus_01 D4Text B6_bg" style="display: block;">
+			<span class="text_adjust">名额紧张，请您尽快付款。</span>
+		</div>
+		<!--order-->
+		<div class="PaymentOrder_mod01 mt5">
+			<dl><dt>订单编号</dt><dd>12321300011</dd></dl>
+			<dl><dt>下单时间</dt><dd><span>2016-08-09 </span><span> 12:00:01</span></dd></dl>
+			<dl><dt>订单状态</dt><dd class="payStatus E2Color2">已支付</dd></dl>
+		</div>
+		<div class="PaymentOrder_mod01">
+			<dl><dt>商品</dt><dd>2017超级冬令营</dd></dl>
+			<dl><dt>规格</dt><dd>一期2016-11-30到12-15</dd></dl>
+			<dl><dt>单价</dt><dd>￥5800</dd></dl>
+			<dl><dt>数量</dt><dd>1</dd></dl>
+			<dl><dt>订单金额</dt><dd class="B4_color">￥3600</dd></dl>
+			<dl><dt>支付方式</dt><dd>微信支付</dd></dl>
+		</div>
+		<h3 class="Z3Title">学员信息</h3>
+		<div class="PaymentOrder_mod01">
+			<dl><dt>姓名</dt><dd>刘勇</dd></dl>
+			<dl><dt>性别</dt><dd>男</dd></dl>
+			<dl><dt>出生日期</dt><dd>1998-02-05</dd></dl>
+			<dl><dt>就读学校</dt><dd>北京大学</dd></dl>
+		</div>
+		<h3 class="Z3Title">联系人信息</h3>
+		<div class="PaymentOrder_mod01">
+			<dl><dt>注册手机号</dt><dd>13811223344</dd></dl>
+			<dl><dt>其他手机号</dt><dd>无</dd></dl>
+			<dl><dt>联系地址</dt><dd class="Address">上海市闵行区东川路黑海家园小区2111弄123号303室</dd></dl>
+			<dl><dt>联系微信号</dt><dd>falaxxx</dd></dl>
+		</div>
+		<div class="pageFooter">
+			<div class="D35Pay">
+				<span>立即支付</span>
+				<span>取消订单</span>				
+			</div>
+		</div>
+	</div>
+</body>
+</html>

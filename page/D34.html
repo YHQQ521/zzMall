@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> 
+	<!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no" />
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/yunLing.css">
+	<title>我的订单</title>
+</head>
+<body>
+	<div class="page_box">
+		<header>
+			<div class="left"><i class="return"></i></div>
+			<h1 class="state_title">我的订单</h1>
+			<div class="right"></div>
+		</header>
+		<!--tab-->
+		<div class="tab_switch M2_tab_switch D21Fixed">
+			<ul class="fourLi">
+				<li class="selected M2_selected">全部</li>
+				<li>待付款</li>
+				<li>待确认</li>
+				<li>已付款</li>
+			</ul>
+		</div>
+		<div class="GroupBuy_searchResult mt5">
+			<!--status1-->
+			<dl>
+				<dt class="D4_textOverflow">亲子启蒙课Let亲子启蒙课Let`s Go Go</dt>
+				<dd><span>￥500</span></dd>
+				<dd><span class="D4_status1">已支付</span></dd>
+			</dl>
+			<!--status2-->
+			<dl>
+				<dt class="D4_textOverflow">亲子启蒙课Let亲子启蒙课Let`s Go Go</dt>
+				<dd><span>￥500</span></dd>
+				<dd><span class="D4_status2">等待支付</span></dd>
+			</dl>
+			<!--status3-->
+			<dl>
+				<dt class="D4_textOverflow">亲子启蒙课Let亲子启蒙课Let`s Go Go</dt>
+				<dd><span>￥500</span></dd>
+				<dd><span class="D4_status3">已取消</span></dd>
+			</dl>
+		</div>
+	</div>
+</body>
+</html>

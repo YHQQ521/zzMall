@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> 
+	<!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no" />
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/yunling.css">
+    <script src="../js/flexible.js"></script>
+	<title>找回密码</title>
+</head>
+<body>
+	<div class="page_box ItemDetails_page">
+		<header>
+			<div class="left"><i class="return"></i></div>
+			<h1 class="state_title">找回密码</h1>
+			<div class="right"><i class="text"></i></div>
+		</header>
+		<p class="A5_Info A4_top8">验证通过，请修改新密码：</p>
+		<!--work number-->
+		<div class="A2_sign A5_mt0">
+			<input class="A2_phone1" type="password" placeholder="新密码">
+			<input class="A2_phone1" type="password" placeholder="确认密码">
+		</div>
+		<!--button-->
+		<button class="A1_log mt4">修改密码</button>
+	</div>
+</body>
+</html>

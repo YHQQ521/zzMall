@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> 
+	<!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="format-detection" content="telephone=no" />
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/yunLing.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/tab.js"></script>
+	<title>教务工具</title>
+</head>
+<body>
+	<div class="page_box ConfirmOrder_page">
+		<header>
+			<div class="left"></div>
+			<h1 class="state_title">扫码验证</h1>
+			<div class="right"></div>
+		</header>
+		<!--中间tab切换内容-->
+		<!--扫码-->
+		<div class="JW10_wrap">
+			<p class="saoma">立即扫码</p>
+		</div>
+		<!--班级-->
+		<div class="JW10_wrap none">
+			<div class="select">
+				<select name="" id="">
+					<option value="">全部课程</option>
+					<option value="">全部课程</option>
+					<option value="">全部课程</option>
+				</select>
+				<select name="" id="">
+					<option value="">全部课程</option>
+					<option value="">全部课程</option>
+					<option value="">全部课程</option>
+				</select>
+			</div>
+			<div class="course">
+				<div class="top">
+					<p>
+						<span class="bold">云领晚托班G3</span>
+						<span>201703-C1</span>
+					</p>
+					<p>
+						<span class="qh">2017-03-01开班</span>
+						<span>班主任 陈玉萍 </span>
+					</p>
+				</div>
+				<div class="center">
+					<p>
+						<span>14</span>
+						<span class="qh">总学员</span>
+					</p>
+					<p>
+						<span>30</span>
+						<span class="qh">已上课</span>
+					</p>
+					<p class="shu">|</p>
+					<p>
+						<span>35</span>
+						<span class="qh">总课时</span>
+					</p>
+				</div>
+				<div class="bottom">
+					<span class="hs">今天有课</span>
+					<span class="hs">1:30开课</span>
+					<span class="signIn JWColor2">排课详情</span>
+				</div>
+			</div>
+		</div>
+		<!--我的-->
+		<div class="JW10_wrap none">
+			<div class="mine">
+				<p>
+					<span class="fl">账号名</span>
+					<span class="fr">xxx001</span>
+				</p>
+				<p>
+					<span class="fl">姓名</span>
+					<span class="fr">刘勇</span>
+				</p>
+			</div>
+			<p class="changePsw">修改密码</p>
+			<p class="exit">退出登录</p>
+		</div>
+		<!--底部tab切换-->
+		<div class="JW10_tab">
+			<ul>
+				<li>
+					<img src="../images/icon/saoma2.png" alt="">
+					<span class="ls">扫码</span>
+				</li>
+				<li>
+					<img src="../images/icon/banji1.png" alt="">
+					<span>班级</span>
+				</li>
+				<li>
+					<img src="../images/icon/wode1.png" alt="">
+					<span>我的</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
